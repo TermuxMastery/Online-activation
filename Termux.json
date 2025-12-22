@@ -1,35 +1,27 @@
 {
-  "dialog_config": {
-    "title": "Premium GULL KHAN",
-    "subtitle": "Please enter your credentials or contact the administrator to activate your subscription",
-    "background_color_hex": "#FFFFFF",
-    "profile_image_url": "https://riot-us.com/wp-content/uploads/2025/09/Still-23-%C2%A9Copyright_-%C2%A9Koyoharu-Gotoge-_-SHUEISHA-Aniplex-ufotable.jpg",
-    "button_login_text": "Login",
-    "button_contact_text": "Admin Contact",
-    "admin_contact_url": "https://t.me/dp_mods"
+  "maintenance": {
+    "enabled": false,
+    "message": "We are currently updating our servers. Please check back later. Follow us on Telegram for updates.",
+    "background_color": "#FF0000"
   },
-  "status_config": {
-    "maintenance_enabled": false,
-    "maintenance_message": "The server is currently undergoing scheduled maintenance. Please check back soon!",
-    "force_show_enabled": false,
-    "remote_check_interval_ms": 30000,
-    "dialog_show_interval_ms": 7200000,
-    "auth_success_toast": "Login successful! Welcome to the premium features.",
-    "auth_expired_toast": "Subscription expired. Please renew it from admin.",
-    "auth_invalid_toast": "Invalid Username, Password, or Device ID."
-  },
-  "users": [
-    {
-      "username": "user786",
-      "password": "pass123456",
-      "device_id": "f8edcd0b-f627-4bf9-8573-70d41b55def4",
-      "expiry_date_utc": "2027-11-01"
-    },
+  "credentials": [
     {
       "username": "user123",
-      "password": "pass456",
-      "device_id": "8e3d64c8-3c99-44d5-947b-example00001",
-      "expiry_date_utc": "2027-12-31"
+      "password": "pass123",
+      "expire_date": "2026-06-30",
+      "device_limit": 1
+    },
+    {
+      "username": "vip_user",
+      "password": "vip_password",
+      "expire_date": "2030-01-01",
+      "device_limit": 3
+    },
+    {
+      "username": "testkey",
+      "password": "testpass",
+      "expire_date": "2025-10-25",
+      "device_limit": 1
     }
   ]
 }
